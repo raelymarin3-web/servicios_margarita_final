@@ -1,14 +1,13 @@
-name: Build Android APK
+name: Build Flutter APK
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches: [ "main" ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -16,34 +15,27 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          distribution: 'temurin'
+          distribution: 'zulu'
           java-version: '17'
 
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
+          flutter-version: '3.24.0'
           channel: 'stable'
-          # Usar una versión muy reciente para garantizar soporte de Dart 3.7+
-          flutter-version: '3.44.6'
           cache: true
 
-      - name: Install dependencies
+      - name: Get dependencies
         run: flutter pub get
-
-      - name: Create google-services.json
-        env:
-          GOOGLE_JSON: ${{ secrets.GOOGLE_SERVICES_JSON }}
-        run: echo $GOOGLE_JSON > android/app/google-services.json
 
       - name: Build APK
         run: |
           cd android
           chmod +x gradlew
-          ./gradlew clean
-          ./gradlew assembleRelease --no-daemon
+          ./gradlew assembleRelease --no-daemon -x externalNativeBuildCleanRelease
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: app-release
-          path: build/app/outputs/flutter-apk/app-release.apk
+          path: android/app/build/outputs/apk/release/app-release.apk
