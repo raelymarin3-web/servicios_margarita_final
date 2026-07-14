@@ -1,0 +1,44 @@
+name: servicios_margarita
+description: "App de servicios profesionales en Margarita"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # ============================================
+  # 🔥 FIREBASE (AGREGAR ESTAS)
+  # ============================================
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.5.1
+  firebase_storage: ^12.3.7
+  
+  # ============================================
+  # LAS QUE YA TENÍAS
+  # ============================================
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  image_picker: ^1.1.2
+  url_launcher: ^6.3.1
+  google_maps_flutter: ^2.17.1
+  geocoding: ^3.0.0
+  share_plus: ^13.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/servicios.json
+    - assets/patrocinadores.json
+    - assets/logo.png
+    - assets/qr_binance.png

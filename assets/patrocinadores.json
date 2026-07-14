@@ -1,0 +1,70 @@
+{
+  "patrocinadores": [
+    {
+      "id": "pat_001",
+      "nombre": "Farmacia Margarita",
+      "logoUrl": "",
+      "descripcion": "Somos una farmacia con más de 20 años de experiencia en la isla. Servicio a domicilio y atención personalizada.",
+      "direccion": "Av. Principal, Porlamar",
+      "telefono": "04121234567",
+      "whatsapp": "04121234567",
+      "horario": "Lunes a Sábado 8am - 8pm",
+      "web": "www.farmaciamargarita.com",
+      "calificacion": 4.8,
+      "totalOpiniones": 150,
+      "redesSociales": [
+        "https://instagram.com/farmaciamargarita",
+        "https://facebook.com/farmaciamargarita"
+      ],
+      "ofertas": [
+        "🔥 20% de descuento en medicinas",
+        "🚚 Delivery gratis a Porlamar"
+      ],
+      "destacado": true,
+      "categoria": "Patrocinadores"
+    },
+    {
+      "id": "pat_002",
+      "nombre": "Supermercado Central",
+      "logoUrl": "",
+      "descripcion": "El supermercado más completo de Margarita. Encuentra todo lo que necesitas en un solo lugar.",
+      "direccion": "Calle 5, Pampatar",
+      "telefono": "04149876543",
+      "whatsapp": "04149876543",
+      "horario": "Lunes a Domingo 7am - 10pm",
+      "web": "www.supercentral.com",
+      "calificacion": 4.6,
+      "totalOpiniones": 98,
+      "redesSociales": [
+        "https://instagram.com/supercentral",
+        "https://facebook.com/supercentral"
+      ],
+      "ofertas": [
+        "🛒 Ofertas semanales en productos básicos",
+        "🎉 2x1 en carnes los fines de semana"
+      ],
+      "destacado": true,
+      "categoria": "Patrocinadores"
+    },
+    {
+      "id": "pat_003",
+      "nombre": "Gasolinera El Valle",
+      "logoUrl": "",
+      "descripcion": "La gasolinera más confiable de la isla. Combustible de calidad y servicio rápido.",
+      "direccion": "Carretera Principal, El Valle",
+      "telefono": "04165555555",
+      "whatsapp": "04165555555",
+      "horario": "Lunes a Domingo 24 horas",
+      "web": "",
+      "calificacion": 4.9,
+      "totalOpiniones": 72,
+      "redesSociales": [],
+      "ofertas": [
+        "⛽ Combustible al mejor precio",
+        "🚗 Lavado de autos gratis con 50 litros"
+      ],
+      "destacado": false,
+      "categoria": "Patrocinadores"
+    }
+  ]
+}

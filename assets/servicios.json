@@ -1,0 +1,291 @@
+{
+  "categorias": {
+    "Albañilería": [
+      {
+        "id": "prof_001",
+        "nombre": "Juan Pérez",
+        "telefono": "04121234567",
+        "zona": "Porlamar",
+        "municipio": "Mariño",
+        "localidad": "Bella Vista, Porlamar",
+        "promedio": 4.8,
+        "total_opiniones": 23,
+        "destacado": true,
+        "distribucion": {"5": 18, "4": 5, "3": 0, "2": 0, "1": 0},
+        "opiniones": [
+          {"usuario": "Ana Pérez", "fecha": "2024-01-15", "puntuacion": 5, "comentario": "Excelente trabajo, muy profesional"},
+          {"usuario": "Carlos R.", "fecha": "2024-01-12", "puntuacion": 4, "comentario": "Buen trabajo, llegó a tiempo"}
+        ]
+      },
+      {
+        "id": "prof_002",
+        "nombre": "Luis Silva",
+        "telefono": "04147654321",
+        "zona": "Pampatar",
+        "municipio": "Maneiro",
+        "localidad": "Pampatar",
+        "promedio": 3.8,
+        "total_opiniones": 8,
+        "destacado": false,
+        "distribucion": {"5": 3, "4": 2, "3": 2, "2": 1, "1": 0},
+        "opiniones": [
+          {"usuario": "Maria G.", "fecha": "2024-01-10", "puntuacion": 5, "comentario": "Muy profesional, lo recomiendo"}
+        ]
+      },
+      {
+        "id": "prof_003",
+        "nombre": "Carlos Martínez",
+        "telefono": "04128887766",
+        "zona": "El Valle",
+        "municipio": "García",
+        "localidad": "El Valle del Espíritu Santo",
+        "promedio": 4.2,
+        "total_opiniones": 15,
+        "destacado": false,
+        "distribucion": {"5": 10, "4": 3, "3": 1, "2": 1, "1": 0},
+        "opiniones": []
+      },
+      {
+        "id": "prof_004",
+        "nombre": "Pedro González",
+        "telefono": "04124445566",
+        "zona": "La Asunción",
+        "municipio": "Arismendi",
+        "localidad": "La Asunción",
+        "promedio": 0,
+        "total_opiniones": 0,
+        "destacado": false,
+        "distribucion": {"5": 0, "4": 0, "3": 0, "2": 0, "1": 0},
+        "opiniones": []
+      },
+      {
+        "id": "prof_005",
+        "nombre": "José Rodríguez",
+        "telefono": "04127778899",
+        "zona": "Porlamar",
+        "municipio": "Mariño",
+        "localidad": "Guaraguao, Porlamar",
+        "promedio": 4.5,
+        "total_opiniones": 10,
+        "destacado": false,
+        "distribucion": {"5": 7, "4": 2, "3": 1, "2": 0, "1": 0},
+        "opiniones": []
+      }
+    ],
+    "Transporte": [
+      {
+        "id": "prof_006",
+        "nombre": "Taxi Rápido C.A.",
+        "telefono": "04245556677",
+        "zona": "Porlamar",
+        "municipio": "Mariño",
+        "localidad": "Porlamar",
+        "promedio": 4.5,
+        "total_opiniones": 45,
+        "destacado": true,
+        "distribucion": {"5": 30, "4": 10, "3": 3, "2": 2, "1": 0},
+        "opiniones": [
+          {"usuario": "Luis M.", "fecha": "2024-01-14", "puntuacion": 5, "comentario": "Excelente servicio, puntuales"},
+          {"usuario": "Carmen T.", "fecha": "2024-01-11", "puntuacion": 4, "comentario": "Buen servicio, precios justos"}
+        ]
+      },
+      {
+        "id": "prof_007",
+        "nombre": "Fletes Margarita",
+        "telefono": "04169998877",
+        "zona": "Pampatar",
+        "municipio": "Maneiro",
+        "localidad": "Pampatar",
+        "promedio": 4.0,
+        "total_opiniones": 12,
+        "destacado": false,
+        "distribucion": {"5": 5, "4": 4, "3": 2, "2": 1, "1": 0},
+        "opiniones": []
+      },
+      {
+        "id": "prof_008",
+        "nombre": "Transporte Ejecutivo",
+        "telefono": "04127778899",
+        "zona": "Pampatar",
+        "municipio": "Maneiro",
+        "localidad": "Los Robles, Pampatar",
+        "promedio": 4.7,
+        "total_opiniones": 8,
+        "destacado": true,
+        "distribucion": {"5": 6, "4": 1, "3": 1, "2": 0, "1": 0},
+        "opiniones": []
+      }
+    ],
+    "Delivery": [
+      {
+        "id": "prof_009",
+        "nombre": "Reparto Ya",
+        "telefono": "04123334455",
+        "zona": "Porlamar",
+        "municipio": "Mariño",
+        "localidad": "Porlamar",
+        "promedio": 4.6,
+        "total_opiniones": 30,
+        "destacado": true,
+        "distribucion": {"5": 20, "4": 6, "3": 3, "2": 1, "1": 0},
+        "opiniones": [
+          {"usuario": "Jorge R.", "fecha": "2024-01-13", "puntuacion": 5, "comentario": "Rápido y confiable"},
+          {"usuario": "Marta P.", "fecha": "2024-01-09", "puntuacion": 4, "comentario": "Bien, pero tarde un poco"}
+        ]
+      },
+      {
+        "id": "prof_010",
+        "nombre": "Delivery Express",
+        "telefono": "04221112233",
+        "zona": "La Asunción",
+        "municipio": "Arismendi",
+        "localidad": "La Asunción",
+        "promedio": 3.9,
+        "total_opiniones": 5,
+        "destacado": false,
+        "distribucion": {"5": 2, "4": 1, "3": 2, "2": 0, "1": 0},
+        "opiniones": []
+      },
+      {
+        "id": "prof_011",
+        "nombre": "Margarita Delivery",
+        "telefono": "04167894567",
+        "zona": "El Valle",
+        "municipio": "García",
+        "localidad": "El Valle del Espíritu Santo",
+        "promedio": 0,
+        "total_opiniones": 0,
+        "destacado": false,
+        "distribucion": {"5": 0, "4": 0, "3": 0, "2": 0, "1": 0},
+        "opiniones": []
+      }
+    ],
+    "Electricidad": [
+      {
+        "id": "prof_012",
+        "nombre": "Electricidad Total",
+        "telefono": "04124445566",
+        "zona": "Porlamar",
+        "municipio": "Mariño",
+        "localidad": "Porlamar",
+        "promedio": 4.3,
+        "total_opiniones": 9,
+        "destacado": false,
+        "distribucion": {"5": 6, "4": 1, "3": 2, "2": 0, "1": 0},
+        "opiniones": []
+      },
+      {
+        "id": "prof_013",
+        "nombre": "Mantenimiento Eléctrico",
+        "telefono": "04225556677",
+        "zona": "Juan Griego",
+        "municipio": "Marcano",
+        "localidad": "Juan Griego",
+        "promedio": 0,
+        "total_opiniones": 0,
+        "destacado": false,
+        "distribucion": {"5": 0, "4": 0, "3": 0, "2": 0, "1": 0},
+        "opiniones": []
+      }
+    ],
+    "Plomería": [
+      {
+        "id": "prof_014",
+        "nombre": "Plomero Profesional",
+        "telefono": "04126667788",
+        "zona": "Porlamar",
+        "municipio": "Mariño",
+        "localidad": "Porlamar",
+        "promedio": 4.6,
+        "total_opiniones": 14,
+        "destacado": true,
+        "distribucion": {"5": 10, "4": 3, "3": 0, "2": 1, "1": 0},
+        "opiniones": []
+      },
+      {
+        "id": "prof_015",
+        "nombre": "Servicios Hidráulicos",
+        "telefono": "04227778899",
+        "zona": "El Valle",
+        "municipio": "García",
+        "localidad": "El Valle del Espíritu Santo",
+        "promedio": 0,
+        "total_opiniones": 0,
+        "destacado": false,
+        "distribucion": {"5": 0, "4": 0, "3": 0, "2": 0, "1": 0},
+        "opiniones": []
+      }
+    ],
+    "Mecánicos": [
+      {
+        "id": "prof_016",
+        "nombre": "Taller Central",
+        "telefono": "04128887766",
+        "zona": "Porlamar",
+        "municipio": "Mariño",
+        "localidad": "Porlamar",
+        "promedio": 4.4,
+        "total_opiniones": 11,
+        "destacado": true,
+        "distribucion": {"5": 7, "4": 3, "3": 0, "2": 1, "1": 0},
+        "opiniones": []
+      }
+    ],
+    "Comercios": [
+      {
+        "id": "prof_017",
+        "nombre": "Supermercado Margarita",
+        "telefono": "04129998877",
+        "zona": "Porlamar",
+        "municipio": "Mariño",
+        "localidad": "Porlamar",
+        "promedio": 4.2,
+        "total_opiniones": 7,
+        "destacado": false,
+        "distribucion": {"5": 4, "4": 2, "3": 1, "2": 0, "1": 0},
+        "opiniones": []
+      },
+      {
+        "id": "prof_018",
+        "nombre": "Bodega El Amigo",
+        "telefono": "04128887766",
+        "zona": "Pampatar",
+        "municipio": "Maneiro",
+        "localidad": "Pampatar",
+        "promedio": 0,
+        "total_opiniones": 0,
+        "destacado": false,
+        "distribucion": {"5": 0, "4": 0, "3": 0, "2": 0, "1": 0},
+        "opiniones": []
+      }
+    ],
+    "Servicios Varios": [
+      {
+        "id": "prof_019",
+        "nombre": "Limpieza Total",
+        "telefono": "04124445566",
+        "zona": "Porlamar",
+        "municipio": "Mariño",
+        "localidad": "Porlamar",
+        "promedio": 4.8,
+        "total_opiniones": 6,
+        "destacado": true,
+        "distribucion": {"5": 5, "4": 1, "3": 0, "2": 0, "1": 0},
+        "opiniones": []
+      },
+      {
+        "id": "prof_020",
+        "nombre": "Jardinería Express",
+        "telefono": "04127778899",
+        "zona": "Pampatar",
+        "municipio": "Maneiro",
+        "localidad": "Pampatar",
+        "promedio": 0,
+        "total_opiniones": 0,
+        "destacado": false,
+        "distribucion": {"5": 0, "4": 0, "3": 0, "2": 0, "1": 0},
+        "opiniones": []
+      }
+    ]
+  }
+}
