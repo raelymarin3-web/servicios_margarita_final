@@ -24,7 +24,7 @@ jobs:
         with:
           channel: 'stable'
           # Usar una versión muy reciente para garantizar soporte de Dart 3.7+
-          flutter-version: '3.29.0'
+          flutter-version: '3.44.6'
           cache: true
 
       - name: Install dependencies
