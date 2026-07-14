@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "Com.raely.Serviciosmargarita"
-    compileSdk = 35  // ✅ Versión estable (Android 15)
+    compileSdk = 36  // ✅ Versión estable (Android 15)
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
