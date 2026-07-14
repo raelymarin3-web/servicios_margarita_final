@@ -1,13 +1,13 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id("com.google.gms.google-services")  // ✅ FIREBASE
+    id("com.google.gms.google-services")
     id("dev.flutter.flutter-gradle-plugin")
 }
 
 android {
-    namespace = "Com.raely.Serviciosmargarita"
-    compileSdk = 36  // ✅ Versión estable (Android 15)
+    namespace = "com.raely.serviciosmargarita"
+    compileSdk = 36
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -15,12 +15,19 @@ android {
     }
 
     defaultConfig {
-        applicationId = "Com.raely.Serviciosmargarita"
-        minSdk = flutter.minSdkVersion // Recomendado para Firebase
+        applicationId = "com.raely.serviciosmargarita"
+        minSdk = 23
         targetSdk = 36
         versionCode = 1
         versionName = "1.0.0"
         multiDexEnabled = true
+    }
+
+    // Configuración para evitar divisiones de APK (evita el error de paquete no válido)
+    bundle {
+        language { enableSplit = false }
+        density { enableSplit = false }
+        abi { enableSplit = false }
     }
 
     buildTypes {
@@ -42,7 +49,7 @@ kotlin {
 }
 
 dependencies {
-    // ✅ FIREBASE
+    // ✅ FIREBASE (Versión estable)
     implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-auth")
